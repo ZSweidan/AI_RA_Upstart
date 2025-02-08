@@ -10,7 +10,7 @@ This project is an AI-powered research assistant that summarizes AI research pap
    git clone https://github.com/your-repo/ai-research-assistant.git
    cd ai-research-assistant
 
-    Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt
 
