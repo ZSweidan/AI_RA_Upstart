@@ -57,7 +57,7 @@ class AIChains:
                 })
                 execution_time = time.time() - start_time
                 logging.info(f"OpenAI Execution Time: {execution_time:.2f} seconds")
-                logging.info(f"OpenAI Token Usage: {result.get('usage', 'N/A')}")
+  
                 return result["answer"]
             
             response = llm.invoke(f"{context}\nQuestion: {question}")
@@ -98,8 +98,6 @@ class AIChains:
             response = llm.invoke(f"{context}\nQuestion: {question}")
             execution_time = time.time() - start_time
             logging.info(f"Groq Execution Time: {execution_time:.2f} seconds")
-            usage_info = response.get('usage') or response.get('token_usage')
-            logging.info(f"OpenAI Token Usage: {usage_info.get('usage', 'N/A')}")
             return response.content
         except Exception as e:
             logging.error(f"Groq Error: {str(e)}")
