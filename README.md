@@ -29,6 +29,6 @@ Run the application:
 Usage
 
     Upload research PDFs or query Arxiv.
-    Ask questions about AI research.
+    Ask questions about any research topic and click on research to do an AI inference.
     Get structured JSON responses with sources and reasoning.
 
