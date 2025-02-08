@@ -1,4 +1,3 @@
-# AI_RA_Upstart
 # AI Research Assistant
 
 This project is an AI-powered research assistant that summarizes AI research papers using LangChain, OpenAI, Groq, Gemini, and Pinecone.
