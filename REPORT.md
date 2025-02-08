@@ -106,3 +106,5 @@ Research Retrieval: ResearchEngine.py
 
 Prompt Templates: RA_PROMPT.py
 
+![image](https://github.com/user-attachments/assets/6950b153-d5c7-486c-927f-9db1a2aee5a6)
+
