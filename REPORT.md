@@ -90,22 +90,6 @@ Deployment: Docker, FastAPI (for backend), Streamlit (for UI).
 
 Response Speed: Measures LLM inference latency.
 
-Token Efficiency: Evaluates token usage vs. relevance.
-
-Accuracy & Coherence: Benchmarked across different models.
-
-Cost Efficiency: Tracks API costs for model inference.
-
-Future Enhancements
-
-Hybrid Model Fusion: Combine multiple LLM outputs for improved accuracy.
-
-User Feedback Integration: Allow users to rate responses to fine-tune the system.
-
-Automated Citation Extraction: Provide structured citations for research findings.
-
-Enhanced UI: Develop an interactive dashboard with response comparison metrics.
-
 Conclusion
 
 This AI-powered research assistant leverages cutting-edge LLMs, vector search, and document processing to assist researchers in efficiently gathering and summarizing academic literature. The project is designed to be scalable and adaptable to future AI advancements.
@@ -122,4 +106,3 @@ Research Retrieval: ResearchEngine.py
 
 Prompt Templates: RA_PROMPT.py
 
-Developed by Zahraa Sweidan 
